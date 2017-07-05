@@ -1,0 +1,187 @@
+/* modified from https://www.w3schools.com/howto/howto_js_topnav.asp */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+#navigate {
+  position: fixed;
+  background-color: rbga(,0,0,0);
+  overflow: hidden;
+  width: 100%;
+  font-family: Century Gothic;
+}
+
+#navigate a {
+  float: right;
+  display: block;
+  color: #551A8B;
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#navigate a:hover {
+  background-color: #F0EAD6;
+  color: black;
+}
+
+.img-container{
+  overflow: hidden;
+}
+
+.img-container img{
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+#headLogo{
+  margin-top: -10px;
+  width: 100%;
+
+  min-height: 200px;
+  max-height: 270px;
+  height: auto;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+/* adapted from https://www.w3schools.com/howto/howto_css_parallax.asp  and GrmZque from https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div */
+.parallax {
+    margin-left: -10px;
+    /*margin-right: -10px;*/
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://archives.mc.duke.edu/sites/default/files/garden-bridge-ems.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#whatWeDo{
+  margin-top: -5px;
+  height: 100%;
+
+  padding-top: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-family: Century Gothic;
+  color: black;
+  font-size: 1.5rem;
+}
+
+
+#howWeDoIt{
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 100px;
+  background-color: white;
+
+  padding-top: 0.5px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: black;
+  font-family: Century Gothic;
+  font-size: 1.5rem;
+}
+
+#pic{
+  height: 200px;
+  width: 275px;
+}
+
+#volunteerExamples{
+  margin:0 auto;
+  width: 50%;
+
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.parallax2 {
+  margin-left: -10px;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("http://admissions.duke.edu/images/uploads/setting/overview-06.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whoWeNeed{
+  margin-top: -100px;
+
+  padding-top: 1px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-family: Century Gothic;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#howToJoin{
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: white;
+
+  padding-top: 0.5px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: black;
+  font-family: Century Gothic;
+  font-size: 1.5rem;
+}
+
+#adjustText{
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+#pic2{
+  height: 250px;
+  width: 315px;
+}
+
+.parallax3 {
+  margin-left: -10px;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://d3m7xw68ay40x8.cloudfront.net/assets/2016/12/02110102/history-duke-chapel-feat.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#execBoard{
+  padding-top: 1px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-family: Century Gothic;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#aboutTheSite{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+
+  text-align: center;
+  font-family: Century Gothic;
+  color: black;
+  font-size: 0.75rem;
+}
