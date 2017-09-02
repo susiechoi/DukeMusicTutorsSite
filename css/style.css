@@ -19,16 +19,17 @@ body {
 #navigate a {
   float: right;
   display: block;
-  color: #551A8B;
+  color: gray;
   text-align: center;
   padding: 4px 10px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 #navigate a:hover {
-  background-color: #F0EAD6;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .img-container{
@@ -175,10 +176,28 @@ h1{
   font-size: 1.5rem;
 }
 
-#aboutTheSite{
+#updates{
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: white;
+
+  padding-top: 0.5px;
+  padding-bottom: 25px;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: center;
+  color: black;
+  font-family: Century Gothic;
+  font-size: 1.5rem;
+}
+
+#aboutTheSite{
+  background-color: gray;
+  padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   text-align: center;
   font-family: Century Gothic;
